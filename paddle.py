@@ -8,7 +8,7 @@ st.title("Paddle Sales Dashboard FY2025")
 # Load data
 @st.cache_data
 def load_data():
-    return pd.read_csv("paddle_opp_data")
+    return pd.read_csv("paddle_opp_data.csv")
 
 df = load_data()
 
